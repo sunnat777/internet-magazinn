@@ -1,0 +1,49 @@
+@import './common/AuthLayout.scss';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background: gray;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 45px;
+
+    @media (max-width: 1000px) {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+
+}
+
+body {
+    background: #FAFAFB;
+}
